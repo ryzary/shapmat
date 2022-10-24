@@ -8,7 +8,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h2 align="center">SHAP-based Mircrobiome Analysis Tools (SHAPMAT)</h2>
+  <h2 align="center">SHAP-based Mircrobiome Analysis Tool (SHAPMAT)</h2>
 
   <p align="center">
     Leveraging Explainable AI for Microbiome Data Analysis

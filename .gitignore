@@ -1,0 +1,49 @@
+# Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,macos
+
+__pycache__
+*/__pycache__/*
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+
+### macOS ###
+# General
+.DS_Store
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.pdm.toml
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos

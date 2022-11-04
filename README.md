@@ -8,7 +8,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h2 align="center">SHAP-based Mircrobiome Analysis Tools (SHAPMAT)</h2>
+  <h2 align="center">SHAP-based Mircrobiome Analysis Tool (SHAPMAT)</h2>
 
   <p align="center">
     Leveraging Explainable AI for Microbiome Data Analysis
@@ -77,7 +77,7 @@ Please check the `requirements.txt` file for the required dependencies.
 
 Use pip to install this library: 
 ```
-pip install shapmat
+pip install shapmat==0.1.0
 ```
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->

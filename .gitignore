@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,macos
 
+shapmat_copy
 __pycache__
 */__pycache__/*
 .ipynb_checkpoints

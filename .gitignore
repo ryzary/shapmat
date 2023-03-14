@@ -7,7 +7,7 @@ __pycache__
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 notes.ipynb
-local_modif
+local_modif/
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/

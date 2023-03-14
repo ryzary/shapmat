@@ -15,7 +15,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="shapmat",
-    version="1.1.3",
+    version="1.1.4",
     description="SHAP-based Microbiome Analyses Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -36,5 +36,5 @@ setup(
     ],
     packages=["shapmat"],
     include_package_data=True,
-    install_requires=["numpy,pandas,matplotlib,seaborn,sklearn,shap,scipy"]
+    install_requires=["numpy==1.20.3","pandas==1.3.4","matplotlib==3.7.1","seaborn==0.12.2","sklearn==1.1.2","shap==0.38.1"]
 )

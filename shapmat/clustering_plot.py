@@ -20,7 +20,7 @@ def plot_cluster(CRC_cluster_df,n_cluster,figsize=(10,10),title=None,savefig=Fal
     plt.ylabel(f'PC2',fontsize=25)
 
     if savefig:
-        plt.savefig(output_path)
+        plt.savefig(output_path,bbox_inches='tight')
     plt.show()
 
 def plot_elbow_method(CRC_cluster_df,savefig=False,output_path=None):

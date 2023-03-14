@@ -1,0 +1,9 @@
+# curatedCRC.csv
+This CSV file contains bacterial relative abundance data from 5 studies, obtained from the curatedMetagenomicData R package.
+The following datasets(conrols(n)/crc(n)) were included.
+- VogtmannE_2016 (52/52)
+- WirbelJ_2018 (65/60)
+- YuJ_2015 (54/74)
+- ZellerG_2014 (61/53)
+- YachidaS_2019 (146/185)
+

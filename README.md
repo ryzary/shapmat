@@ -77,7 +77,7 @@ Please check the `requirements.txt` file for the required dependencies.
 
 Use pip to install this library: 
 ```
-pip install shapmat==0.1.0
+pip install shapmat
 ```
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->

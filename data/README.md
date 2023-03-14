@@ -7,3 +7,9 @@ The following datasets(conrols(n)/crc(n)) were included.
 - ZellerG_2014 (61/53)
 - YachidaS_2019 (146/185)
 
+Columns:
+- "bacteria" (864 cols)
+- "study_name" 
+- "CRC" (1:crc, 0: control)
+- "ajcc_stage" (NaN for CRC subjects with no ajcc info)
+

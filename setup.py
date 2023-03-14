@@ -36,5 +36,5 @@ setup(
     ],
     packages=["shapmat"],
     include_package_data=True,
-    install_requires=["numpy==1.20.3","pandas==1.3.4","matplotlib==3.7.1","seaborn==0.12.2","sklearn==1.1.2","shap"]
+    install_requires=["numpy","pandas","matplotlib","seaborn","sklearn","shap"]
 )

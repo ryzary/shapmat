@@ -64,21 +64,34 @@ SHAPMAT leverages SHAP (SHapley Additive exPlanations) for microbiome data analy
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
+</br>
+
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-Please check the `requirements.txt` file for the required dependencies.
-
-### Installation
-
-Use pip to install this library: 
+1. Create and activate a conda environment. Let's name it "microbiome"
+```bash
+conda create -n microbiome python=3.9
+conda activate microbiome
 ```
+
+2.  Install SHAPMAT and jupyter lab
+```bash
 pip install shapmat
+pip install jupyterlab
 ```
+3. Go to your working directory and clone SHAPMAT tutorial repository from github. 
+```bash
+git clone https://github.com/ryzary/shapmat_tutorial
+```
+
+4. Go inside the folder and open jupyter lab.
+```bash
+cd shapmat_tutorial
+jupyter lab
+```
+
+5. You can now use the _tutorial_1.ipynb_ notebook.
+
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -95,6 +108,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- LICENSE -->
+
+</br>
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.

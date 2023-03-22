@@ -4,4 +4,4 @@ matplotlib == 3.4.3
 seaborn == 0.12.2
 shap == 0.38.1
 scikit-learn == 1.1.2
-matplotlib == 3.7.1
+matplotlib == 3.4.3

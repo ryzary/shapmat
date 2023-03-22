@@ -16,7 +16,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 setup(
     name="shapmat",
     packages=["shapmat"],
-    version="1.1.7",
+    version="0.1.2",
     description="SHAP-based Microbiome Analyses Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",

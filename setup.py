@@ -16,7 +16,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 setup(
     name="shapmat",
     packages=["shapmat"],
-    version="0.1.3",
+    version="0.1.4",
     description="SHAP-based Microbiome Analyses Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -36,5 +36,5 @@ setup(
         "Operating System :: OS Independent"
     ],
     include_package_data=True,
-    install_requires=["numpy","pandas","matplotlib","seaborn","scikit-learn","shap"]
+    install_requires=["numpy","pandas","matplotlib>=3.4.3","seaborn","scikit-learn","shap"]
 )

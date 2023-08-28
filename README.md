@@ -66,39 +66,10 @@ SHAPMAT leverages SHAP (SHapley Additive exPlanations) for microbiome data analy
 <!-- GETTING STARTED -->
 </br>
 
-## Getting Started
+## Usage
 
+Please refer to the [tutorial](https://github.com/ryzary/shapmat_tutorial) page.
 
----
-
-1. Install Poetry
-- This project uses Poetry for dependency management. For macOS, you can install Poetry using brew:
-```
-brew install poetry
-```
-- For other operating systems, please refer to this [page](https://python-poetry.org/docs/) for Poetry Installation.
-
-2. Clone this repository
-```bash
-git clone https://github.com/ryzary/shapmat_tutorial
-```
-
-3. Install the dependencies
-```
-poetry install
-```
-4. Go to your working directory and clone SHAPMAT tutorial repository from github. 
-```bash
-git clone https://github.com/ryzary/shapmat_tutorial
-```
-
-5. Go inside the folder and open jupyter lab using poetry.
-```bash
-cd shapmat_tutorial
-poetry run jupyter lab
-```
-
-5. You can now use the _tutorial_1.ipynb_ notebook.
 
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->

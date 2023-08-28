@@ -68,26 +68,34 @@ SHAPMAT leverages SHAP (SHapley Additive exPlanations) for microbiome data analy
 
 ## Getting Started
 
-1. Create and activate a conda environment. Let's name it "microbiome"
-```bash
-conda create -n microbiome python=3.9
-conda activate microbiome
-```
 
-2.  Install SHAPMAT and jupyter lab
-```bash
-pip install shapmat
-pip install jupyterlab
+---
+
+1. Install Poetry
+- This project uses Poetry for dependency management. For macOS, you can install Poetry using brew:
 ```
-3. Go to your working directory and clone SHAPMAT tutorial repository from github. 
+brew install poetry
+```
+- For other operating systems, please refer to this [page](https://python-poetry.org/docs/) for Poetry Installation.
+
+2. Clone this repository
 ```bash
 git clone https://github.com/ryzary/shapmat_tutorial
 ```
 
-4. Go inside the folder and open jupyter lab.
+3. Install the dependencies
+```
+poetry install
+```
+4. Go to your working directory and clone SHAPMAT tutorial repository from github. 
+```bash
+git clone https://github.com/ryzary/shapmat_tutorial
+```
+
+5. Go inside the folder and open jupyter lab using poetry.
 ```bash
 cd shapmat_tutorial
-jupyter lab
+poetry run jupyter lab
 ```
 
 5. You can now use the _tutorial_1.ipynb_ notebook.
